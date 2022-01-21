@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* ==================
+  Common Styles
+=====================*/
+.penguine-sec-title {
+  font-family: "Bebas Neue", cursive;
+  font-weight: 400;
+  color: #363958;
+}
+.penguine-paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #3e3e3e;
+}
+.penguine-button {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #fff;
+  padding: 12px 33px;
+  background: linear-gradient(180deg, #a4bc46 0%, #85a019 100%);
+  border-radius: 10px;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+}
+
+/* =====================
+  Navbar Start
+========================*/
+.penguine-list-items {
+  font-size: 16px;
+  font-weight: 500;
+  color: #3c3c3c;
+  margin-left: 25px;
+}
+
+/* =====================
+  Banner/Hero Start
+========================*/
+.penguine-hero-bg {
+  background: url(../img/images/hero-bg.png);
+}
+.hero-title {
+  font-size: 5rem;
+}
+.hero-title .penguine-fancy-text {
+  color: #fabe4c;
+}
+
+/* =====================
+  Media Queries
+========================*/
+@media (max-width: 992px) {
+  .penguine-list-items {
+    margin-left: 0;
+  }
+  .hero-title {
+    font-size: 4rem;
+  }
+}
