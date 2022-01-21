@@ -14,12 +14,16 @@
   font-family: "Bebas Neue", cursive;
   font-weight: 400;
   color: #363958;
+  font-size: 48px;
 }
 .penguine-paragraph {
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
   color: #3e3e3e;
+}
+.penguine-fancy-text {
+  color: #fabe4c;
 }
 .penguine-button {
   font-size: 16px;
@@ -32,6 +36,13 @@
   text-transform: uppercase;
   border: none;
   outline: none;
+}
+
+.penguine-card-title {
+  color: #363958;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: capitalize;
 }
 
 /* =====================
@@ -53,8 +64,14 @@
 .hero-title {
   font-size: 5rem;
 }
-.hero-title .penguine-fancy-text {
-  color: #fabe4c;
+
+.women-jacket-img-bg {
+  width: 100%;
+  height: auto;
+  max-width: 290px;
+  max-height: 293px;
+  background-color: #f1f1f1;
+  border-radius: 20px;
 }
 
 /* =====================
